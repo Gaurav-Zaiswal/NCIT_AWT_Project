@@ -1,0 +1,13 @@
+{% extends 'base_login_register.html' %}
+
+{% block body-content %}
+{% include 'widgets/login_widget.html'%}
+{% endblock %}
+
+{% block script %}
+<script>
+    document.getElementById('id_username').classList.add("input100");
+    document.getElementById('id_password').classList.add("input100");
+	//   document.getElementById('flexSwitchCheckDefault').classList.add("input100");
+</script>
+{% endblock %}
